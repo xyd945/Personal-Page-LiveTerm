@@ -1,6 +1,6 @@
 import config from '../../../config.json';
 
-const sumfetch = async (args: string[]): Promise<string> => {
+const profile = async (args: string[]): Promise<string> => {
   if (config.ascii === 'yudi') {
     return ` 
     
@@ -11,7 +11,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 ██║  ██║███████╗███████╗███████╗╚██████╔╝    ╚███╔███╔╝╚██████╔╝██║  ██║███████╗██████╔╝██╗
 ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝      ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝
 
-             @@@@@@@@@@@@@                   sumfetch: summary display
+             @@@@@@@@@@@@@                   my profile summary
         @@@@               @@@@             -----------
       @@                       @@            ABOUT
     @@                           @@          ${config.name}
@@ -31,7 +31,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 `;
   } else {
     return `
-           ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄                  sumfetch
+           ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄                  profile
         ▄▓▓▀ ▄▓▓▀▓▓▓▀▓▓▄ ▀▀▓▓▄              -----------
       ▓▓▀  ▄▓▀   ▐▓▓  ▀▓▓    ▓▓▄             ABOUT
     ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            ${config.name}
@@ -51,4 +51,4 @@ const sumfetch = async (args: string[]): Promise<string> => {
   }
 };
 
-export default sumfetch;
+export default profile;
