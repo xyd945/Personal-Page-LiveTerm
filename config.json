@@ -1,6 +1,6 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/xyd945/xyd945/main/README.md",
-  "title": "Yudi's LiveTerm",
+  "title": "./XYD",
   "name": "Yudi Xu",
   "ascii": "yudi",
   "social": {
@@ -10,7 +10,7 @@
   "email": "yudi@mobifi.io",
   "ps1_hostname": "xyd945.com",
   "ps1_username": "visitor",
-  "repo": "https://github.com/xyd945/xyd945",
+  "repo": "https://github.com/xyd945",
 
   "donate_urls": {
     "HBAR": "",

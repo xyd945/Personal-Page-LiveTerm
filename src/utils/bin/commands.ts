@@ -16,6 +16,9 @@ export const help = async (args: string[]): Promise<string> => {
   }
   return `Welcome! Here are all the available commands:
 \n${c}\n
+type one of them in the command line to see what you get 😉
+
+💡Tips
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
 Type 'profile' to display summary.
