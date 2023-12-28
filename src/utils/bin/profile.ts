@@ -16,7 +16,7 @@ const profile = async (args: string[]): Promise<string> => {
         XXXX                XXXX                      ABOUT
           XXXX            XXXX                        ${config.name}
             XXXX        XXXX                         ﰩ ${config.ps1_hostname}
-              XXXX    XXXX                            
+              XXXX    XXXX                            <u><a href="${config.gui_site}" target="_blank">Graphical Version Website</a></u>
                 XXXXXXXX                             爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
               XXXX    XXXX                           -----------
             XXXX        XXXX                          CONTACT 
