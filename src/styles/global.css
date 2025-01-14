@@ -39,3 +39,33 @@ div#__next > div {
 ::-webkit-scrollbar-thumb:hover {
   background: #ff8037;
 }
+
+/* Add to src/styles/global.css */
+
+.terminal-container {
+  transition: all 0.3s ease;
+}
+
+.terminal-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Scrollbar styles for the terminal */
+.terminal-container ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-container ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.terminal-container ::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+.terminal-container ::-webkit-scrollbar-thumb:hover {
+  background: #2d3748;
+}
+
